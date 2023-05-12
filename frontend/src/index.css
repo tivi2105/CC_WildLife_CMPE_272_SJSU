@@ -21,6 +21,8 @@ body {
   margin: auto;
   justify-content: center;
   margin-top: 20px;
+  gap: 11rem;
+  flex-wrap: nowrap;
 }
 
 .andchor {
@@ -220,5 +222,5 @@ img {
 }
 
 .login-img {
-  width: 100%;
+  width: 140%;
 }

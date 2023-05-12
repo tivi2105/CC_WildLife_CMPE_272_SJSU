@@ -78,7 +78,7 @@ const Login = () => {
           <div className='col-md-5 p-3 textArea'>
             {/* <h1 className='text-white'>Chaos 🔥</h1>
             <h3 className='text-white'>Bat bat py Treat 😆</h3> */}
-            <img className='login-img' src='saveAnimals.jpg' height={250}/>
+            <img className='login-img' src='latest_logo.png' height={400}/>
           </div>
           <div className='col-md-5 p-3 box shadow' style={{height:'650px'}}>
 

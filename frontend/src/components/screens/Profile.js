@@ -185,20 +185,20 @@ const Profile = () => {
             <p className='my-5 p-3'><strong>{state ? state.following.length : "0"}</strong> following</p>
           </div>
             
-          <div>
+          {/* <div>
             <p className='m-3'>someBioIfAnny</p>
             <p className='m-3'>someBioIfAnny</p>
-          </div>
+          </div> */}
           
         </div>
-        <div className='border-light border-bottom my-4'></div>
+        {/* <div className='border-light border-bottom my-4'></div> */}
       </div>
       <div className='row'>
             {
               
-              mypics.map((item)=>{
+              mypics.map((item, index)=>{
                 
-                return <Profilecards url={item.photo} body={item.body}/> ;
+                return <Profilecards key={index} url={item.photo} body={item.body}/> ;
 
               })
             }

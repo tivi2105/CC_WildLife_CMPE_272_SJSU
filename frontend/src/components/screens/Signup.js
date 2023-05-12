@@ -67,7 +67,7 @@ const Signup = () => {
     }).catch(err => console.log(err))
     }
     else{
-      toast.error('all fields mult be fille' , {position:toast.POSITION.TOP_RIGHT});
+      toast.error('All fields must be filled' , {position:toast.POSITION.TOP_RIGHT});
       setDisable(disbale);
     }  
 

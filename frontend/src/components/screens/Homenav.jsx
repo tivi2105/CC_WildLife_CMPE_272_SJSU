@@ -17,7 +17,7 @@ const Homenav = () => {
     <Navbar collapseOnSelect expand="lg" variant="dark" style={{backgroundColor:'#23395b'}}>
       <Container className='text-center'>
         {/* <Navbar.Brand><Link to='/' className="navbar-brand anchor text-warning">Chaos 🔥</Link> */}
-        <Link to='/' className="navbar-brand anchor text-light m-2"><img className='login-img' src='saveAnimals.jpg' height={50} width={50}/></Link>
+        <Link to='/' className="navbar-brand anchor text-light m-2"><img className='login-img' src='latest_logo.png' height={90} width={90}/></Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end"> 
         
@@ -26,8 +26,8 @@ const Homenav = () => {
           
 
         <Nav className=''>
-            <Nav.Link href="#deets"><Link to='/' className="navbar-brand d-flex p-2 text-warning " style={{fontFamily:'"Roboto", sans-serif'}}> Explore <LibraryBooksIcon style={{marginTop:'3px',marginLeft:'2px'}} /></Link></Nav.Link>
-            <Nav.Link eventKey={2} href="#memes"><Link to='/subscribedposts' className="navbar-brand d-flex p-2 text-warning " style={{fontFamily:'"Roboto", sans-serif'}}> Home <HomeOutlinedIcon style={{marginTop:'3px',marginLeft:'2px'}} /></Link></Nav.Link>
+        <Nav.Link eventKey={2} href="#memes"><Link to='/' className="navbar-brand d-flex p-2 text-warning " style={{fontFamily:'"Roboto", sans-serif'}}> Home <HomeOutlinedIcon style={{marginTop:'3px',marginLeft:'2px'}} /></Link></Nav.Link>
+            <Nav.Link href="#deets"><Link to='/subscribedposts' className="navbar-brand d-flex p-2 text-warning " style={{fontFamily:'"Roboto", sans-serif'}}> IUCN Red List <LibraryBooksIcon style={{marginTop:'3px',marginLeft:'2px'}} /></Link></Nav.Link>
             <Nav.Link eventKey={2} href="#memes"><Link to='/profile' className="navbar-brand d-flex p-2 text-warning " style={{fontFamily:'"Roboto", sans-serif'}}>Profile<PersonOutlineSharpIcon style={{marginTop:'3px',marginLeft:'2px'}} /></Link></Nav.Link>
             <Nav.Link eventKey={2} href="#memes"><Link to='/login' onClick={()=>{
                 localStorage.clear()
